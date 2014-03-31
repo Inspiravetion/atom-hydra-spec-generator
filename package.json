@@ -1,0 +1,14 @@
+{
+  "name": "hydra-spec-generator",
+  "main": "./lib/hydra-spec-generator",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": ["hydra-spec-generator:log-html"],
+  "repository": "https://github.com/atom/hydra-spec-generator",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

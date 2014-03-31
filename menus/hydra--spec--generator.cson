@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable hydra-spec-generator': 'hydra-spec-generator:log-html'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'hydra-spec-generator'
+      'submenu': [
+        { 'label': 'Log Html', 'command': 'hydra-spec-generator:log-html' }
+      ]
+    ]
+  }
+]

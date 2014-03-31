@@ -1,0 +1,5 @@
+{
+  ".workspace": {
+    "cmd-H": "hydra-spec-generator:log-html"
+  }
+}
